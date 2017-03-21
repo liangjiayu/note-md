@@ -11,7 +11,7 @@
 
 ### 位移运用
 - 绝对定位居中
-````
+```` css
 .container {
     width: 1200px;
     height: 500px;
@@ -29,7 +29,7 @@
     margin-top: -50px;
 }
 ````
-````
+```` html
 <div class="container">
     <div class="box"></div>
 </div>
@@ -37,7 +37,7 @@
  通过负margin 来给绝对定位的元素 位移
 
 - 双飞布局 中间自适应 两边固定
-````
+```` css
  * {
     box-sizing: border-box;
 }
@@ -65,7 +65,7 @@
     margin-left: -200px;
 }
 ````
-````
+```` html
 <div class="container">
     <div class="main"></div>
 </div>
@@ -75,7 +75,7 @@
  main留下对应的隔离值 left right 位移到对应的位置
 
 ### 撑大盒子的运用
-````
+```` css
 * {
     margin: 0;
     padding: 0;
@@ -99,7 +99,8 @@
     margin-bottom: 20px;
 }
 ````
-````
+
+```` html
 <div class="container">
     <ul class="list">
         <li class="box"></li>
